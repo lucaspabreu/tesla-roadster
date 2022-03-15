@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,800;1,100;1,500;1,800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background: rgb(15, 15, 15);
+  overflow: hidden;
+  margin: 0;
+}
+nav {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+
+  background: rgb(37, 37, 37);
+  letter-spacing: 5px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+nav div img {
+  transform: translate(1vw, 1vw);
+  width: 5vw;
+}
+
+nav ul li {
+  display: flex;
+  color: aliceblue;
+}
+
+a {
+  color: aliceblue;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+a:hover {
+  color: rgb(255, 52, 52);
+}
+
+.container {
+  width: 100vw;
+  /* display: flex; */
+}
+
+.name-tesla {
+  box-sizing: border-box;
+  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-left: 10vw;
+}
+
+h4 {
+  font-size: 3vw;
+  font-style: italic;
+  letter-spacing: 2vw;
+  transform: translate(6%, 150%);
+  font-weight: 100;
+  z-index: 1;
+}
+h1 {
+  font-size: 9vw;
+  font-weight: 600;
+  letter-spacing: 0.5vw;
+  transform: translate(0, -30%);
+  z-index: 1;
+}
+h1:hover {
+  color: #bf0419;
+  transition: 0.5s ease;
+}
+
+.img-tesla {
+  width: 90%;
+  position: relative;
+  transform: translate(0vw, -24vw);
+  transition: 0.7s;
+  z-index: -1;
+}
+.img-tesla:hover {
+  width: 92vw;
+}
