@@ -4,20 +4,19 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   box-sizing: border-box;
-  padding: 0;
+  padding: 0%;
 }
 body {
   background: rgb(15, 15, 15);
   overflow: hidden;
-  margin: 0;
+  margin: 0%;
 }
 nav {
   height: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5%;
-
+  padding: 4%;
   background: rgb(37, 37, 37);
   letter-spacing: 5px;
   font-style: italic;
@@ -26,7 +25,7 @@ nav {
 
 nav div img {
   transform: translate(1vw, 1vw);
-  width: 5vw;
+  width: 4vw;
 }
 
 nav ul li {
@@ -37,6 +36,7 @@ nav ul li {
 a {
   color: aliceblue;
   align-items: center;
+  font-size: 2vw;
   padding: 5% 10%;
 }
 
@@ -64,6 +64,7 @@ h4 {
   transform: translate(6%, 150%);
   font-weight: 100;
   z-index: 1;
+  transition: 0.2s ease;
 }
 h1 {
   font-size: 9vw;
@@ -71,6 +72,8 @@ h1 {
   letter-spacing: 0.5vw;
   transform: translate(0, -30%);
   z-index: 1;
+  transition: 0.2s ease;
+  cursor: pointer;
 }
 h1:hover {
   color: #bf0419;
